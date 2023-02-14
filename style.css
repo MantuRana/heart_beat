@@ -1,0 +1,79 @@
+body {
+background-color: black;
+
+}
+
+@keyframes changecolor{
+0%{ background-color:blue;  }
+25%{  background-color: deeppink;   }
+50%{background-color: aqua;}
+75%{ background-color:rgb(26, 15, 21);    }
+100%{ background-color:red   }
+
+}
+
+
+.hii1{
+   
+      position:absolute;
+      left:10%;  
+      right:0%;
+        top: 0%;
+        rotate: -45deg;
+      transition:0.5s;
+
+}
+.hii1:hover{
+               transform:scale(1.5);
+
+}
+
+
+.box1{
+
+    height: 100px;
+    width:105px;
+    position:absolute;
+   bottom: 0px;
+    top:200px;
+    left:75px;
+    border:2px solid red transparent;
+    background-color: red;
+    animation-name:changecolor ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+.box2{
+    border-radius: 100px;
+    height: 127px;
+    width:112px;
+    position: relative;
+    top:-49px;
+    bottom: 50px;
+    left:0px;
+    border:2px solid red transparent;
+    background-color: red;
+    animation-name:changecolor ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+.box3{
+    border-radius: 100px;
+    height: 112px;
+    width:112px;
+    position: relative;
+    top:-138px;
+    bottom: 70px;
+    left:38px;
+    border:2px solid red transparent;
+    background-color: red;
+
+    animation-name:changecolor ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+
+}
