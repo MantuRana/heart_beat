@@ -124,7 +124,7 @@ background-image: url(me3.jpg);
 transition: 8S ease;               }
 
  .img1:hover {
-                 transform: scaley(2.5); }
+                 transform: scale(2.5); }
 
 h3 {
   position:absolute;
